@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    -webkit-overflow-scrolling: touch;
+    -webkit-text-size-adjust: none;
+    font-family: "Nunito", sans-serif;
+    font-size: 15px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background: #d3d6db;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+img {
+    max-width: 100%;
+}
+button {
+    cursor: pointer;
+    outline: none;
+}
+.wrapper {
+    position: relative;
+}
+a {
+    color: #000000;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.required,
+.unknown-error-msg {
+    background: #ff0000;
+    color: #ffffff;
+    padding: .3em;
+    border-radius: 3px;
+    text-align: center;
+    display: block;
+    font-size: .8rem;
+    margin-bottom: .5rem;
+}
+.js-shake {
+    cursor: pointer;
+}
+.js-step {
+    transition: all 500ms linear;
+}

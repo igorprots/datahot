@@ -1,0 +1,11 @@
+.corner {
+  z-index: 5;
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: block;
+  height: 243px;
+  width: 200px;
+  background: url(../../../../img/seo/tv_corner_artificial.png) no-repeat top right; }
+
+/*# sourceMappingURL=corner.css.map */

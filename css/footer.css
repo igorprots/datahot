@@ -1,0 +1,44 @@
+.legal__container {
+    padding: 15px 7px;
+    margin: 15px 0 0;
+    box-sizing: border-box;
+    background: #4e7394;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 -2px 2px;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+}
+.legal__container > div {
+    display: inline-block;
+    width: auto;
+    border-left: 1px solid #ffffff;
+}
+.legal__container > div:first-child {
+    border-left: 0;
+}
+.legal__container .legal__disclaimer {
+    display: block;
+    border-left: 0;
+    width: 96%;
+    margin: 10px auto;
+    max-width: 1100px;
+}
+.legal__container .legal__disclaimer .text--legal {
+    color: #ffffff;
+    text-align: justify;
+}
+
+.legal__container .legal__imprint,
+.legal__container .legal__privacy,
+.legal__container .legal__agb {
+    color: #ddd;
+    padding: 0 6px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.legal__container .legal__imprint:hover,
+.legal__container .legal__privacy:hover,
+.legal__container .legal__agb:hover {
+    color: #fff;
+    text-decoration: underline;
+}
